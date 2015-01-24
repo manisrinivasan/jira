@@ -6,6 +6,7 @@
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
 		<script src="http://code.jquery.com/jquery-2.1.3.js"></script>
 		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<script src="js/jira.js"></script>
 	</head>
 
 	<body>
@@ -27,12 +28,12 @@
 							    </select>
 					</div>
 					    <label for="textarea-summary">Summary:</label>
-					    <textarea name="textarea-summary" id="textarea-1"></textarea>
+					    <textarea name="textarea-summary" id="textarea-summary"></textarea>
 					    <label for="textarea-description">Description:</label>
-					    <textarea name="textarea-description" id="textarea-1"></textarea>
+					    <textarea name="textarea-description" id="textarea-description"></textarea>
 					    <label for="textarea-issue-type">Issue Type:</label>
-					    <textarea name="textarea-issue-type" id="textarea-1">New Feature</textarea>
-					<a href="#" class="ui-btn ui-btn-inline">Submit</a>	
+					    <textarea name="textarea-issue-type" id="textarea-issue-type">New Feature</textarea>
+					<a href="#" onclick="makeJira()" class="ui-btn ui-btn-inline">Submit</a>	
 					<form>
 					</div><!-- /content -->
 
